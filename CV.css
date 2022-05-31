@@ -1,0 +1,18 @@
+
+ul
+{
+    list-style: none;
+}
+li
+{
+    display: inline-block; 
+    width: 300px;
+}
+.special
+{
+    width: 800px ;
+    border: 3px solid rgb(20, 20, 20);
+    margin: 100px auto ;
+    background-color: antiquewhite;
+    padding: 0 10px;
+}

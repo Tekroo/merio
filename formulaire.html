@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulaire</title>
+        <style>
+            *{
+                margin: auto;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Inscription</h1>
+        <fieldset>
+            <legend>Formulaire</legend>
+            <fieldset>
+                <legend>Etat Civil</legend>
+                <br><label for="nom">Nom: </label>
+                <input type="text" name="nom" placeholder="Entrez votre nom">
+                <br><br><label for="prenom">Prenom: </label>
+                <input type="text" name="prenom" placeholder="Entrez votre prenom">
+                <br><br><label for="date">Date de naissance: </label>
+                <input type="date" name="date" >
+            </fieldset><br><br>
+            <div >
+                <label for="email">E-mail: </label>
+                <input type="email" name="email" placeholder="Entrez votre e-mail">
+                <br><br><label for="pass">Mot de Pass: </label>
+                <input type="password" name="pass">
+                <br><br><label for="photo">Photo: </label>
+                <input type="file" placeholder="Choisir un fichier">
+            </div>
+            <br><br><label for="sexe">Sexe : </label>
+            <br><br><input type="radio" value="homme" name="sex" checked>Homme
+            <br><input type="radio" value="femme" name="sex">Femme
+            <br><input type="radio" value="bisex" name="sex">bi-sexe
+            <br><br><label for="pays">Pays d'origine: </label>
+            <select name="pays">
+                <option value="algerie">Algerie</option>
+                <option value="allemagne">Allemagne</option>
+                <option value="benin">Benin</option>
+                <option value="burkina">Burkina Faso</option>
+                <option value="brasil">Brasil</option>
+                <option value="congo">Congo</option>
+                <option value="cameroun">Cameroun</option>
+                <option value="croitie">Croitie</option>
+                <option value="canada">Canada</option>
+                <option value="chine">Chine</option>
+                <option value="costa rica">Costa Rica</option>
+                <option value="danemark">Danemark</option>
+                <option value="etats unis">Etat-Unis</option>
+                <option value="ethiopie">Ethiopie</option>
+                <option value="france">France</option>
+                <option value="islande">Islande</option>
+                <option value="japon">Japon</option>
+            </select>
+            <br><br><label>Passe-temps préférés : </label><br>
+            <br><input type="checkbox" value="musique">Musique
+            <br><input type="checkbox" value="dessin">Dessin
+            <br><input type="checkbox" value="basket ball">Basket ball
+            <br><input type="checkbox" value="football">football
+            <br><br><input type="submit" value="envoyer">
+            <input type="submit" value="supprimer">
+        </fieldset>
+    </body>
+</html>
